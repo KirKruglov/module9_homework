@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK-3</title>
+    <link rel="stylesheet" href="task-3.css">
+</head>
+<body>
+    <h1>Задача</h1>
+    <div class="text-task">В input можно ввести любое число. При клике на кнопку происходит следующее:
+        <ol>
+            <li> Если число не попадает в диапазон от 1 до 10 — выводить ниже текст «число вне диапазона от 1 до 10».</li>
+            <li>Если число попадает в диапазон от 1 до 10 — сделать запрос c помощью XHR по URL https://picsum.photos/v2/list?limit=10, где get-параметр limit — это введённое число</li>
+            <li>После получения данных вывести ниже картинки на экран.</li>
+        </ol> 
+    </div>
+    <div class="action">
+        <label for="number">Введите число от 1 до 10:</label>
+        <input class="input-number" id="number" type="number" name="number">
+        <button class="btn js-btn-request">Получить картинки</button>
+    </div>
+    <div class="showImg js-show-result">Результат запроса</div>
+    
+</body>
+<script src="task-3.js"></script>
+</html>
+

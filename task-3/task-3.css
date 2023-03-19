@@ -1,0 +1,50 @@
+.flex-block {
+    display: flex;
+    
+}
+
+.text-task {   
+    font-size: 20px;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 300px;
+    height: 100px;
+
+}
+
+.input-number {
+    max-width: 150px;
+    max-height: 50px; 
+
+}
+
+.btn {
+    max-width: 150px;
+    max-height: 50px;
+    margin-top: 10px;   
+    padding: 10px;
+    background-color: burlywood;
+    color: black;
+}
+
+.showImg {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.card {
+    width: 250px;
+    margin: 20px;
+}
+
+.card-image {
+    display: block;
+    width: 250px;
+    height: 150px;
+}
+  

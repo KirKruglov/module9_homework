@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+    <link rel="stylesheet" href="task-4.css">
+</head>
+<body>
+    <h1>Задача № 4</h1>
+    <div class="task-text">
+        <p>Напишите код приложения, интерфейс которого представляет собой 2 input и кнопку submit. В input можно ввести любое число.</p>
+        <ol>При клике на кнопку происходит следующее:
+            <li>Если оба числа не попадают в диапазон от 100 до 300 или введено не число — выводить ниже текст «одно из чисел вне диапазона от 100 до 300»;</li>
+            <li>Если числа попадают в диапазон от 100 до 300 — сделать запрос c помощью fetch по URL https://picsum.photos/200/300, где первое число — ширина картинки, второе — высота.</li>
+            <li>После получения данных вывести ниже картинку на экран.</li>
+        </ol>         
+    </div>
+    <div class="container-flex">
+        <div class="input-box">
+            <label class="label-box" for="width">Введите число от 100 до 300</label>
+            <input class="input-style" type="number" name="width" id="width">
+        </div>
+        <div class="input-box">
+            <label class="label-box" for="heigth">Введите число от 100 до 300</label>
+            <input class="input-style" type="number" name="heigth" id="heigth">
+        </div>
+    </div>
+    <div class="container-flex">
+        <button class="btn-style" type="submit">submit</button>
+    </div>
+    <div class="result-text">Результаты выполнения задачи:</div>
+    <div class="result-display"></div>
+
+
+</body>
+<script src="task-4.js"></script>
+</html>
